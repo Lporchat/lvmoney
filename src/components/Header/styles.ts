@@ -9,7 +9,7 @@ export const Content = styled.div`
   /* assim consegue deixar centralizado */
   margin: 0 auto;
 
-  padding: 2rem 1rem 12rem;
+  padding: 2rem 1rem 8rem;
   display: flex;
   align-items: center;
   justify-content: space-between;

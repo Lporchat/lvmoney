@@ -20,10 +20,23 @@ export const Container = styled.div`
       border: 0;
       background: var(--shape);
       color: var(--text-body);
-      border-radius: 0.25rem;
 
+      //quando for o primeiro filho era ter isso
       &:first-child {
         color: var(--text-title);
+        border-radius: 0.8rem 0px 0px 0.8rem;
+      }
+
+      //quando for o ultimo filho era ter isso
+      &:last-child {
+        border-radius: 0px 0.8rem 0.8rem 0px;
+      }
+
+      &.deposit {
+        color: var(--green);
+      }
+      &.withdrow {
+        color: var(--red);
       }
     }
   }
